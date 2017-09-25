@@ -1,0 +1,23 @@
+{
+    "name": "ruskid/sphinx-config-generator-php",
+    "type": "library",
+    "description": "Sphinx config generator",
+    "keywords": ["php","sphinx", "config", "generator"],
+    "homepage": "https://github.com/ruskid/sphinx-config-generator-php",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Victor Demin",
+            "email": "demmbox@gmail.com"
+        }
+    ],
+    "require": {
+       "php": ">=5.4.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+         "psr-4": {
+             "ruskid\\sphinx\\": ""
+         }
+    }
+}
